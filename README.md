@@ -1,6 +1,6 @@
 # Devils-Themes
 
-Storage of themes made/modified by us Retro Devils .
+Storage of themes made/modified by us Retro Devils. See Readme.md file inside each theme here for more info. 
 
 # Current Emu Station Theme List 
 
