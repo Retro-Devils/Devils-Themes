@@ -2,12 +2,19 @@
 
 Storage of themes made/modified by us Retro Devils .
 
-# Current Theme List 
+# Current Emu Station Theme List 
 
 - Devil Chromey 
 
      Modified Hey Chromey By Hursty
 
-- Under World Pi
+- NEON I.B.A.D (Idiot Box & Devils)
 
     (Work In Progress)
+
+
+# Currnet Attract Mode Theme List 
+
+- DevilSpin 
+
+     (Work In Progress)
