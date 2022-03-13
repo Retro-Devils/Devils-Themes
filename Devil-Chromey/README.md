@@ -1,11 +1,19 @@
 # Devil Chromey Theme 
 
-# Created For:  Diablos Arcade 
+# Created For:  
 
-# Created By:   Them Devils 
+Diablos Arcade 
 
-# Based On:     Hey Chromey 
+# Created By:   
 
-# Download:     https://archive.org/download/devils-themes/devil-chromey.zip
+Them Devils 
+
+# Based On:     
+
+Hey Chromey 
+
+# Download:     
+
+https://archive.org/download/devils-themes/devil-chromey.zip
 
  
