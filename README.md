@@ -19,7 +19,13 @@ Storage of themes made/modified by us Retro Devils. See Readme.md file inside ea
 
 *------IDIOT BOX GAMING-------------Thier Art Used On NEON IBAD-----*
 
- Idiot Box Gaming Splashscreens Gdrive-------------------------- https://bit.ly/3tnzPrS
+- Idiot Box Gaming Splashscreens Gdrive-------------------------- https://bit.ly/3tnzPrS
  
- Idiot Box GHaming Facebook-------------------------------------
+- Idiot Box GHaming Facebook-------------------------------------
  
+*-------HURTSTY----------------------Devils Chromey Based on Hey Chromey*
+
+- Hurstys Github------------------------------------------------- 
+
+- Hurstys Website------------------------------------------------
+
