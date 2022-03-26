@@ -23,7 +23,7 @@ Storage of themes made/modified by us Retro Devils. See Readme.md file inside ea
  
 - Idiot Box GHaming Facebook-------------------------------------
  
-*-------HURTSTY----------------------Devils Chromey Based on Hey Chromey*
+*-------HURTSTY------------------------Devils Chromey Based on Hey Chromey*
 
 - Hurstys Github------------------------------------------------- 
 
