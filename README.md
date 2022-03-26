@@ -4,9 +4,9 @@ Storage of themes made/modified by us Retro Devils. See Readme.md file inside ea
 
 # Emulation Station Theme List 
 
-- Devil Chromey 
+- Devil Chromey-----------------------------------https://archive.org/download/devils-themes/devil-chromey.zip
 
-- NEON I.B.A.D (Idiot Box & Devils)
+- NEON I.B.A.D (Idiot Box & Devils)---------------https://archive.org/download/devils-themes/NEON-IBAD.zip
 
 # Attract Mode Theme List 
 
