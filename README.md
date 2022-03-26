@@ -17,7 +17,7 @@ Storage of themes made/modified by us Retro Devils. See Readme.md file inside ea
      
 # Props & Credits #
 
-* ------IDIOT BOX GAMING-------------Thier Art Used On NEON IBAD----- *
+*------IDIOT BOX GAMING-------------Thier Art Used On NEON IBAD-----*
 
  Idiot Box Gaming Splashscreens Gdrive-------------------------- https://bit.ly/3tnzPrS
  
