@@ -10,9 +10,7 @@ Storage of themes made/modified by us Retro Devils. See Readme.md file inside ea
 
 # Attract Mode Theme List 
 
-- DevilSpin 
-
-     (Work In Progress)
+- DevilSpin---------------------------------------(Work In Progress)
      
      
 # Props & Credits #
