@@ -19,7 +19,8 @@ Storage of themes made/modified by us Retro Devils. See Readme.md file inside ea
 
 - Idiot Box Gaming Splashscreens Gdrive-------------------------- https://bit.ly/3tnzPrS
  
-- Idiot Box GHaming Facebook-------------------------------------
+- Idiot Box Gaming Facebook-------------------------------------
+https://www.facebook.com/groups/idiotboxgaming/?ref=share
  
 *HURTSTY------------------------Devils Chromey Based on Hey Chromey*
 
