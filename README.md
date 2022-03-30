@@ -24,7 +24,8 @@ https://www.facebook.com/groups/idiotboxgaming/?ref=share
  
 *HURTSTY------------------------Devils Chromey Based on Hey Chromey*
 
-- Hurstys Github------------------------------------------------- 
+- Hurstys Github-------------------------------------------------
+https://github.com/RetroHursty69/HurstyThemes
 
 - Hurstys Website------------------------------------------------
 
