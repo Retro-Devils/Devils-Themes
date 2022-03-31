@@ -1,0 +1,449 @@
+<!--
+Remixed 
+Name:  Back To The Future 
+Remix by: 
+Version: 1.1 
+
+Based On
+theme name:     Pacman
+creator:		Dwayne Hurst (aka Hursty)
+version         1.0
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>4</formatVersion>
+
+<feature supported="carousel">
+   <view name="system">
+      <carousel name="systemcarousel">
+        <type>horizontal</type>
+        <pos>0.0 0.0</pos>
+        <size>1 1</size>
+        <logoScale>1.025</logoScale>
+         <zIndex>41</zIndex>          
+        <logoSize>0.95 0.95</logoSize>
+        <color>00000000</color>
+        <maxLogoCount>5</maxLogoCount>
+      </carousel>
+      <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <zIndex>40</zIndex>                 
+         <path>./_inc/images/main.png</path>
+      </image>              
+      <text name="systemInfo">
+         <zIndex>44</zIndex>       
+         <pos>0.35 0.96</pos>
+         <backgroundColor>00000000</backgroundColor>
+         <color>ffffff</color>
+         <fontPath>./_inc/fonts/digital-7 (mono italic).ttf</fontPath>
+	     <fontSize>0.025</fontSize>
+         <zIndex>44</zIndex>		     
+      </text>            
+   </view>
+</feature>
+
+   <view name="detailed,video">
+      <helpsystem name="help">
+         <fontPath>./_inc/fonts/digital-7 (mono italic).ttf</fontPath>
+         <fontSize>0.025</fontSize>      
+         <pos>0.015 0.98</pos>      
+         <textColor>70e356</textColor>
+         <iconColor>ffffff</iconColor>
+      </helpsystem>
+   </view> 
+   <view name="basic">
+      <helpsystem name="help">
+         <fontPath>./_inc/fonts/digital-7 (mono italic).ttf</fontPath>
+         <fontSize>0.015</fontSize>      
+         <pos>0.015 0.98</pos>      
+         <textColor>2EADCC</textColor>
+         <iconColor>147992</iconColor>
+      </helpsystem>
+   </view>    
+   
+   <view name="system">
+      <helpsystem name="help">
+      <fontPath>./_inc/fonts/digital-7 (mono italic).ttf</fontPath>
+         <fontSize>0.025</fontSize>    
+         <pos>0.015 0.98</pos>      
+         <textColor>2EADCC</textColor>
+         <iconColor>147992</iconColor>
+      </helpsystem>
+   </view>   
+
+   <view name="grid">
+      <helpsystem name="help">
+         <fontPath>./_inc/fonts/digital-7 (mono italic).ttf</fontPath>
+         <fontSize>0.023</fontSize>     
+         <pos>0.1 0.931</pos>       
+         <textColor>ffffff</textColor>
+         <iconColor>ffffff</iconColor>
+      </helpsystem>
+    </view>
+
+<!--
+System Gamelist
+--> 
+   <view name="detailed,video">
+      <textlist name="gamelist">      
+         <selectorColor>1c1c1c00</selectorColor>                     
+         <pos>0.235 0.024</pos>
+         <size>0.3 0.9</size>
+         <selectedColor>f4580d</selectedColor>
+         <primaryColor>f1be4e</primaryColor>
+         <secondaryColor>f1be4e</secondaryColor>
+         <fontPath>./_inc/fonts/digital-7 (mono italic).ttf</fontPath>
+         <fontSize>0.03</fontSize>
+         <forceUppercase>1</forceUppercase>
+         <scrollSound></scrollSound>
+         <alignment>left</alignment>
+         <zIndex>42</zIndex>                          
+      </textlist>
+   </view>
+   
+   <view name="basic">
+      <textlist name="gamelist">      
+         <selectorColor>1c1c1c00</selectorColor>                     
+         <pos>0.23 0.0305</pos>
+         <size>0.535 0.9</size>
+         <selectedColor>f4580d</selectedColor>
+         <primaryColor>f1be4e</primaryColor>
+         <secondaryColor>f1be4e</secondaryColor>
+         <fontPath>./_inc/fonts/digital-7 (mono italic).ttf</fontPath>
+         <fontSize>0.03</fontSize>
+         <forceUppercase>1</forceUppercase>
+         <scrollSound></scrollSound>
+         <alignment>center</alignment>
+         <zIndex>42</zIndex>                          
+      </textlist>
+   </view>   
+   
+   <view name="basic">
+      <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>        
+         <path>./_inc/images/systembasic.png</path>
+      </image>                
+   </view> 
+     
+
+   <view name="detailed,video">
+      <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>       
+         <path>./_inc/images/systemvideo.png</path>
+      </image>    
+      <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount, md_rating, md_developer, md_publisher, md_genre, md_playcount, md_lastplayed">
+         <pos>1 1</pos>
+      </text>
+      <text name="md_lbl_rating,md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lbl_playcount,md_lbl_players,md_developer, md_publisher, md_genre, md_playcount, md_lastplayed,md_description,md_players,md_releasedate">
+         <color>f7c658</color>
+         <fontPath>./_inc/fonts/digital-7 (mono italic).ttf</fontPath>
+         <fontSize>0.025</fontSize>
+      </text>
+      <text name="md_lbl_rating">
+         <pos>1.38 0.57</pos>
+         <size>0.0625 0.08</size>
+		 <color>f7c658</color>         
+         <zIndex>44</zIndex>         
+      </text>
+      <rating name="md_rating">
+         <zIndex>44</zIndex>       
+         <pos>1.38 1.61</pos>
+         <size>0.07 0.07</size>
+         <filledPath>./_inc/images/star_filled.png</filledPath>
+         <unfilledPath>./_inc/images/star_empty.png</unfilledPath>
+      </rating>
+      <text name="md_lbl_players">
+         <pos>0.6 0.65</pos>
+         <size>0.2 0.035</size>
+         <color>ff4f26</color>
+         <zIndex>42</zIndex>                  
+      </text>
+      <text name="md_players">
+         <pos>0.67 0.65</pos>
+         <size>0.2 0.035</size>
+         <zIndex>42</zIndex>         
+      </text>
+      <text name="md_lbl_releasedate">
+         <pos>0.75 0.65</pos>
+         <size>0.2 0.035</size>
+         <color>f7c658</color>
+         <zIndex>42</zIndex>                  
+      </text>
+      <datetime name="md_releasedate">
+         <pos>0.85 0.65</pos>
+         <size>0.2 0.035</size>
+         <zIndex>42</zIndex>         
+      </datetime>
+      <text name="md_lbl_genre">
+         <pos>0.6 0.7</pos>
+         <size>0.2 0.035</size>
+         <color>77f25b</color>
+         <zIndex>42</zIndex>                   
+      </text>
+      <text name="md_genre">
+         <pos>0.67 0.7</pos>
+         <size>0.2 0.035</size>
+         <zIndex>42</zIndex>         
+      </text>         
+      <text name="md_lbl_developer">
+         <pos>1.38 0.485</pos>
+         <size>1.12 0.035</size>
+         <color>ffffff</color>
+         <zIndex>42</zIndex>                   
+      </text>
+      <text name="md_developer">
+         <pos>1.38 0.515</pos>
+         <size>0.12 0.035</size>
+         <zIndex>42</zIndex>                  
+      </text>
+      <text name="md_description">
+         <fontSize>0.02</fontSize>      
+         <color>77f25b</color>      
+         <pos>0.58 0.815</pos>
+         <size>0.4 0.175</size>
+         <zIndex>42</zIndex>         
+      </text>
+   </view>
+
+   <view name="grid">
+
+		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount">
+			<color>ffffff</color>
+			<forceUppercase>1</forceUppercase>
+   		<fontPath>./_inc/fonts/digital-7 (mono italic).ttf</fontPath>
+			<fontSize>0.03</fontSize>
+			<size>0.12 0.04</size>
+			<pos>1 1</pos>
+		</text>
+
+		<text name="md_developer, md_publisher, md_genre, md_players, md_playcount, md_description">
+			<color>ffffff</color>
+			<forceUppercase>1</forceUppercase>
+     <fontPath>./_inc/fonts/digital-7 (mono italic).ttf</fontPath>
+			<fontSize>0.03</fontSize>
+			<size>0.14 0.04</size>
+			<pos>1 1</pos>
+		</text>
+
+		<helpsystem name="help">
+			<textColor>ffffff</textColor>
+			<iconColor>ffffff</iconColor>
+		</helpsystem>
+
+		<datetime name="md_releasedate, md_lastplayed">
+			<color>ffffff</color>
+			<forceUppercase>1</forceUppercase>
+     <fontPath>./_inc/fonts/digital-7 (mono italic).ttf</fontPath>
+			<fontSize>0.03</fontSize>
+			<size>0 0.04</size>
+			<pos>1 1</pos>
+		</datetime>
+
+		<image name="background">
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<size>1 1</size>
+			<path>./_inc/images/systemvideo.png</path>
+		</image> 
+
+		<image name="logo">
+			<pos>0.5 0.03</pos>
+			<maxSize>0.55 0.1</maxSize>
+		</image>
+
+	</view>
+   
+<!--
+Metadata, description, rating etc
+-->      
+
+   <view name="detailed">
+      <image name="md_image">
+         <pos>0.78 0.31</pos>
+         <maxSize>0.48 0.38</maxSize>
+         <zIndex>41</zIndex>         
+      </image>      
+   </view>
+
+   <view name="video">   
+      <video name="md_video">
+         <pos>0.78 0.34</pos>
+         <maxSize>0.48 0.38</maxSize>
+         <delay>1.0</delay>
+         <zIndex>41</zIndex>         
+         <showSnapshotNoVideo>true</showSnapshotNoVideo>
+         <showSnapshotDelay>true</showSnapshotDelay>
+      </video>
+      <image name="md_marquee">
+         <pos>0.78 0.07</pos>
+         <origin>0.5 0.5</origin>
+         <maxSize>0.16 0.11</maxSize>
+         <zIndex>42</zIndex>         
+      </image>             
+   </view>
+   
+  <imagegrid name="gamegrid">
+			<pos>0.0 0.0</pos>
+			<size>0.72 0.81</size>
+			<margin>0.00 0.00</margin>
+			<padding>0.025 0.05 0.04375 0.052</padding>
+			<autoLayout>3 3</autoLayout>
+			<autoLayoutSelectedZoom>1.06</autoLayoutSelectedZoom>
+			<scrollDirection>vertical</scrollDirection>
+		</imagegrid>
+  		
+		<video name="md_video">
+         		<origin>0.5 0.5</origin>
+         		<pos>0.84 0.83</pos>
+         		<maxSize>0.43 0.31</maxSize>
+         		<zIndex>6</zIndex>               
+      		</video>
+		
+		<image name="logo">
+			<origin>0 0</origin>
+			<pos>0.85 0.02</pos>
+			<maxSize>0.46 0.2</maxSize>
+     <zIndex>7</zIndex>         
+		</image>
+
+      		<image name="background" extra="true">
+         		<origin>0 0</origin>
+         		<pos>0 0</pos>
+         		<size>1 1</size>        
+         		<path>./_inc/images/systemvideo.png</path>
+         		<zIndex>4</zIndex>          
+      		</image>
+
+    		<image name="md_marquee">
+			<origin>0 0</origin>
+			<pos>0.7 0.07</pos>
+			<size>0.16 0.1</size>
+         		<zIndex>8</zIndex>        
+      		</image>   
+
+		<text name="md_grid">
+			<pos>0.047 0.058</pos>
+			<size>.6 .8</size>
+	   <zIndex>8</zIndex>         
+		</text>
+
+		<text name="md_name">
+			<pos>0.4 0.85</pos>
+			<size>0.68 0.0592592592592593</size>
+			<origin>0.5 0.5</origin>
+			<fontPath>./_inc/fonts/digital-7 (mono italic).ttf</fontPath>
+			<fontSize>0.036</fontSize>
+			<color>ffffff</color>
+			<forceUppercase>true</forceUppercase>	
+			<lineSpacing>1.0</lineSpacing>
+			<zIndex>17</zIndex>
+		</text>
+
+		<text name="md_description">
+			<color>ffffff</color>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./_inc/fonts/digital-7 (mono italic).ttf</fontPath>
+			<fontSize>0.03</fontSize>
+			<size>0.26 0.32</size>
+			<pos>0.71 0.343</pos>
+	                <zIndex>6</zIndex>         
+		</text>
+		
+		<text name="md_lbl_rating">
+			<color>ff61f1</color>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./_inc/fonts/digital-7 (mono italic).ttf</fontPath>
+			<fontSize>0.03</fontSize>
+			<size>0.12 0.04</size>
+			<pos>0.71 0.17</pos>
+	                <zIndex>6</zIndex>         
+		</text>
+		
+		<text name="md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount">
+			<color>ff61f1</color>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./_inc/fonts/digital-7 (mono italic).ttf</fontPath>
+			<fontSize>0.03</fontSize>
+			<size>0.12 0.04</size>
+	                <zIndex>6</zIndex>         
+		</text>
+		
+		<text name="md_developer, md_publisher, md_genre, md_players, md_playcount, md_releasedate">
+			<color>ff61f1</color>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./_inc/fonts/digital-7 (mono italic).ttf</fontPath>
+			<fontSize>0.03</fontSize>
+			<size>0.14 0.04</size>
+	                <zIndex>6</zIndex>         
+		</text>
+
+		<container name="md_grid_margin"> 
+			<size>0.02 0.02</size>
+		</container>
+		
+		<rating name="md_rating">
+			<pos>0.85 0.175</pos>
+			<size>0.028 0.028</size>
+			<filledPath>./_inc/images/star_filled.png</filledPath>
+			<unfilledPath>./_inc/images/star_empty.png</unfilledPath>
+	                <zIndex>6</zIndex>         
+		</rating>
+		
+		<text name="md_lbl_releasedate">
+			<color>ff61f1</color>
+			<pos>0.71 0.22</pos>
+			<size>0.12 0.04</size>
+	                <zIndex>6</zIndex>         
+		</text>
+		
+		<datetime name="md_releasedate">
+			<pos>0.85 0.22</pos>
+	                <zIndex>6</zIndex>         
+		</datetime>
+		
+		<text name="md_lbl_players">
+			<color>ff61f1</color>
+			<pos>0.71 0.27</pos>
+			<size>0.12 0.04</size>
+	                <zIndex>6</zIndex>         
+		</text>
+		
+		<text name="md_players">
+			<pos>0.85 0.27</pos>
+	                <zIndex>6</zIndex>         
+		</text>
+
+		<gridtile name="default">
+			<size>0.118 0.28</size>
+			<padding>16 16</padding>
+			<backgroundImage>./_inc/images/blank.png</backgroundImage>
+			<backgroundCornerSize>0 0</backgroundCornerSize>
+			<backgroundColor>ffffff</backgroundColor>
+			<imageColor>ffffff</imageColor>
+		</gridtile>
+		<gridtile name="selected">
+			<size>0.28 0.28</size>
+			<backgroundImage>./_inc/images/selected.png</backgroundImage>
+			<backgroundColor>ffffff</backgroundColor>
+		</gridtile>				
+
+		<text name="gridtile_text">
+			<color>ffffff</color>
+			<forceUppercase>0</forceUppercase>
+			<fontPath>./_inc/fonts/digital-7 (mono italic).ttf</fontPath>
+			<fontSize>0.03</fontSize>
+			<size>0.14 0.04</size>
+	                <zIndex>6</zIndex>
+			<pos>0.71 0.22</pos>
+		</text>
+
+	</view>
+
+</theme>
