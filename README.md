@@ -6,6 +6,9 @@ Storage of themes made/modified by us Retro Devils. See Readme.md file inside ea
 
 - Devil Chromey-----------------------------------https://archive.org/download/devils-themes/devil-chromey.zip
 
+- Devil Chromey With Grid Veiew Support-----------
+https://archive.org/download/devils-themes/Devils-Chromey-Grid.zip
+
 - NEON I.B.A.D (Idiot Box & Devils)---------------https://archive.org/download/devils-themes/NEON-IBAD.zip
 
 # Attract Mode Theme List 
