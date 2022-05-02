@@ -15,7 +15,12 @@ https://archive.org/download/devils-themes/Devils-Chromey-Grid.zip
 
 - DevilSpin---------------------------------------(Work In Progress)
      
-     
+# Devils Advocate Themes
+
+Please See:
+https://github.com/Retro-Devils/Devils-Advocate-Themes
+
+
 # Props & Credits #
 
 *IDIOT BOX GAMING-------------Thier Art Used On NEON IBAD*
